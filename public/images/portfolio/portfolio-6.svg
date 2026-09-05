@@ -1,0 +1,14 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0B1224"/>
+  <g opacity="0.15">
+    <circle cx="120.0" cy="120.0" r="3" fill="#E7B24B"/>
+    <circle cx="280.0" cy="72.0" r="2" fill="#E7B24B"/>
+    <circle cx="480.0" cy="150.0" r="4" fill="#E7B24B"/>
+    <circle cx="640.0" cy="90.0" r="2" fill="#E7B24B"/>
+    <circle cx="200.0" cy="450.0" r="3" fill="#E7B24B"/>
+    <circle cx="560.0" cy="480.0" r="2.5" fill="#E7B24B"/>
+    <circle cx="720.0" cy="390.0" r="3" fill="#E7B24B"/>
+  </g>
+  <text x="50%" y="50%" font-family="sans-serif" font-size="33" fill="#E7B24B" text-anchor="middle" dominant-baseline="middle">Portofolio 6</text>
+  <text x="50%" y="58%" font-family="sans-serif" font-size="18" fill="#8B93A7" text-anchor="middle" dominant-baseline="middle">Ganti dengan gambar asli</text>
+</svg>
