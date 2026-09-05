@@ -28,7 +28,6 @@ export function Footer({ profile }: { profile: CompanyProfile }) {
           <h3 className="font-display text-sm font-medium text-paper">Kontak</h3>
           <ul className="mt-3 space-y-2 text-sm text-paper/60">
             <li>{profile.email}</li>
-            <li>{profile.phone}</li>
             <li>WhatsApp: {profile.whatsapp}</li>
             {profile.instagram && <li>Instagram: {profile.instagram}</li>}
           </ul>

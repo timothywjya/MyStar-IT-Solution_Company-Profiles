@@ -14,7 +14,6 @@ export interface CompanyProfile {
   city: string;
   postalCode: string;
   email: string;
-  phone: string;
   whatsapp: string;
   instagram?: string;
   linkedin?: string;
