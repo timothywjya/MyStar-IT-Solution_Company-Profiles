@@ -1,74 +1,75 @@
 import { Portfolio } from "@domain/entities/Portfolio";
 
 /**
- * DATA PLACEHOLDER — ganti dengan portofolio asli.
- * Tambah/hapus item dengan menambah/menghapus objek pada array ini.
+ * Portofolio asli — screenshot aplikasi nyata yang sudah berjalan
+ * di berbagai klien. Untuk menambah, tambahkan objek baru di sini
+ * dan taruh gambarnya di public/images/portfolio/.
  */
 export const portfolioData: Portfolio[] = [
   {
     id: "portfolio-1",
-    title: "Sistem Point of Sales Koperasi",
-    category: "Point of Sales",
-    client: "Koperasi AAA",
-    year: 2023,
+    title: "Sistem Koperasi Simpan Pinjam",
+    category: "Desktop Application",
+    client: "Koperasi Simpan Pinjam Bintang Perdana",
+    year: 2016,
     description:
-      "Aplikasi kasir dan manajemen stok untuk unit usaha koperasi, lengkap dengan laporan penjualan harian dan bulanan.",
-    techStack: ["Next.js", "PostgreSQL", "Prisma"],
-    imageUrl: "/images/portfolio/portfolio-1.svg",
+      "Aplikasi inti simpan pinjam koperasi: data anggota, produk pinjaman (investasi, modal kerja), jaminan (BPKB/sertifikat), perhitungan bagi hasil, jadwal angsuran, hingga laporan keuangan koperasi.",
+    techStack: ["Visual Basic .NET", "MySQL", "Crystal Reports"],
+    imageUrl: "/images/portfolio/portfolio-1.jpg",
   },
   {
     id: "portfolio-2",
-    title: "Website Company Profile & Katalog",
-    category: "Company Profile",
-    client: "Toko BBB",
-    year: 2023,
+    title: "Sistem Pembiayaan Koperasi Syariah (BMT)",
+    category: "Desktop Application",
+    client: "Koperasi Syariah BMT",
+    year: 2016,
     description:
-      "Website company profile dengan katalog produk dinamis dan integrasi WhatsApp untuk pemesanan.",
-    techStack: ["Next.js", "Tailwind CSS"],
-    imageUrl: "/images/portfolio/portfolio-2.svg",
+      "Varian syariah dari sistem koperasi: akad pembiayaan (Al-Mudharabah, dll.), perhitungan nisbah bagi hasil, jaminan akta tanah/bangunan, dan jenis angsuran anuitas sesuai kaidah syariah.",
+    techStack: ["Visual Basic .NET", "MySQL", "Crystal Reports"],
+    imageUrl: "/images/portfolio/portfolio-2.jpg",
   },
   {
     id: "portfolio-3",
-    title: "Aplikasi Mobile Manajemen Anggota",
-    category: "Mobile Application",
-    client: "Koperasi Simpan Pinjam",
-    year: 2022,
+    title: "Sistem Distribusi & Sales Canvassing",
+    category: "Desktop Application",
+    client: "Toko Sumber Maju",
+    year: 2025,
     description:
-      "Aplikasi mobile untuk anggota koperasi memantau simpanan, pinjaman, dan riwayat transaksi secara real-time.",
-    techStack: ["React Native", "Node.js", "MySQL"],
-    imageUrl: "/images/portfolio/portfolio-3.svg",
+      "Sistem penjualan untuk toko distributor (sparepart & retail): canvassing, jadwal kunjungan sales, piutang pelanggan, promo & poin, serta sinkronisasi transaksi dari aplikasi Android sales lapangan ke kantor pusat.",
+    techStack: ["Visual Basic .NET", "MySQL", "Sinkronisasi Android"],
+    imageUrl: "/images/portfolio/portfolio-3.jpg",
   },
   {
     id: "portfolio-4",
-    title: "Sistem Informasi Manajemen Sekolah",
-    category: "Web Application",
-    client: "Yayasan Pendidikan",
-    year: 2022,
+    title: "Sistem Gudang & Barcode Label Otomatis",
+    category: "Desktop Application",
+    client: "Al Mahira",
+    year: 2025,
     description:
-      "Sistem informasi akademik untuk manajemen data siswa, nilai, absensi, dan komunikasi dengan wali murid.",
-    techStack: ["Next.js", "Prisma", "PostgreSQL"],
-    imageUrl: "/images/portfolio/portfolio-4.svg",
+      "Manajemen gudang lengkap: kategori & satuan barang, konversi satuan, cetak label harga dan barcode otomatis, permintaan & mutasi gudang, stok opname, hingga rakit/urai barang.",
+    techStack: ["Visual Basic .NET", "MySQL", "Cetak Barcode"],
+    imageUrl: "/images/portfolio/portfolio-4.jpg",
   },
   {
     id: "portfolio-5",
-    title: "Integrasi Sistem Gudang & Kasir",
-    category: "System Integration",
-    client: "CCC Retail Group",
-    year: 2021,
+    title: "Sistem Koperasi Multi-Cabang (White-Label per Klien)",
+    category: "Desktop Application",
+    client: "Koperasi Tri Matra Sejahtera & 10+ koperasi lainnya",
+    year: 2025,
     description:
-      "Menghubungkan sistem manajemen gudang dengan kasir di beberapa cabang agar stok selalu sinkron secara otomatis.",
-    techStack: ["Next.js", "REST API", "PostgreSQL"],
-    imageUrl: "/images/portfolio/portfolio-5.svg",
+      "Satu sistem inti yang dapat diberi identitas (nama, logo) sesuai masing-masing koperasi, sudah diimplementasikan di lebih dari 10 koperasi berbeda — termasuk BP2T Mandiri Sejahtera, Bina Mandiri, Primer Koperasi Kartika Cobra, dan Koperasi Promoter Jaya Tangsel — masing-masing dengan modul Akuntansi, Keuangan, hingga Personalia.",
+    techStack: ["Visual Basic .NET", "MySQL", "Multi-Tenant Branding"],
+    imageUrl: "/images/portfolio/portfolio-5.jpg",
   },
   {
     id: "portfolio-6",
-    title: "Dashboard Laporan Keuangan UMKM",
-    category: "Web Application",
-    client: "DDD Group",
-    year: 2021,
+    title: "Sistem Point of Sales Retail & Minimarket",
+    category: "Point of Sales",
+    client: "Toko Jajanan Kirana, Kudus",
+    year: 2026,
     description:
-      "Dashboard visualisasi arus kas dan laporan keuangan sederhana yang mudah dipahami pemilik usaha.",
-    techStack: ["Next.js", "Chart.js"],
-    imageUrl: "/images/portfolio/portfolio-6.svg",
+      "Implementasi kasir POS untuk toko retail/minimarket dengan beberapa titik kasir sekaligus, lengkap dengan pelatihan langsung di lokasi untuk staf toko sebelum sistem digunakan sehari-hari.",
+    techStack: ["Visual Basic .NET", "MySQL", "Integrasi Perangkat Kasir"],
+    imageUrl: "/images/portfolio/portfolio-6.jpg",
   },
 ];

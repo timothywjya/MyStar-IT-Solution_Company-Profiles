@@ -7,5 +7,5 @@ export interface GalleryItem {
   id: string;
   imageUrl: string;
   caption: string;
-  category: "Kantor" | "Tim" | "Kegiatan" | "Event";
+  category: "Kantor" | "Tim" | "Kegiatan" | "Event" | "Klien";
 }

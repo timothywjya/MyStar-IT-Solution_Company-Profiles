@@ -50,14 +50,15 @@ dan menggantinya di `presentation/di/container.ts` — tanpa mengubah use-case a
 | Yang ingin diubah | Edit file |
 |---|---|
 | Nama, alamat, logo, kontak, Visi & Misi (About Me) | `src/infrastructure/data/company-profile.data.ts` |
-| Daftar Portofolio | `src/infrastructure/data/portfolio.data.ts` |
-| Daftar Galeri | `src/infrastructure/data/gallery.data.ts` |
-| Daftar Klien | `src/infrastructure/data/client.data.ts` |
-| Logo perusahaan | Ganti file `public/images/logo-placeholder.svg` (atau ganti path `logoUrl` ke file baru, misal `.png`/`.jpg`) |
+| Daftar Portofolio (sudah berisi 6 screenshot aplikasi asli) | `src/infrastructure/data/portfolio.data.ts` |
+| Daftar Galeri (sudah berisi 5 foto lokasi klien asli) | `src/infrastructure/data/gallery.data.ts` |
+| Daftar Klien (sudah berisi 21 klien asli) | `src/infrastructure/data/client.data.ts` |
+| Logo perusahaan | `public/images/brand/logo-icon.png` (ikon) & `logo-horizontal.png` (ikon + tulisan), dipakai lewat `logoIconUrl`/`logoHorizontalUrl` di `company-profile.data.ts` |
 | Foto Portofolio/Galeri/Klien | Ganti file di `public/images/portfolio/`, `public/images/gallery/`, `public/images/clients/` |
 
-Semua gambar saat ini adalah **placeholder SVG** bertema navy & emas — tinggal ganti nama filenya
-dengan foto asli (format apa pun: `.jpg`, `.png`, `.webp`), lalu sesuaikan path `imageUrl`/`logoUrl` di file data terkait.
+Portofolio, Galeri, dan Klien saat ini **sudah diisi data & foto asli** (bukan placeholder lagi) — tinggal
+tambah/ubah/hapus objek di file data terkait bila ada perubahan, lalu taruh foto barunya di folder
+`public/images/...` yang sesuai (format apa pun: `.jpg`, `.png`, `.webp`).
 
 ## Desain
 

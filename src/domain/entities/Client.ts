@@ -8,5 +8,5 @@ export interface Client {
   name: string;
   type: string;
   logoUrl: string;
-  since: number;
+  since?: number;
 }

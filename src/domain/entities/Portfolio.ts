@@ -4,6 +4,7 @@
  * Merepresentasikan satu proyek/karya yang pernah dikerjakan.
  */
 export type PortfolioCategory =
+  | "Desktop Application"
   | "Web Application"
   | "Mobile Application"
   | "Point of Sales"

@@ -11,13 +11,13 @@ export default async function ClientsPage() {
   const clients = await getClientsUseCase.execute();
 
   return (
-    <section className="py-20">
+    <section className="py-14 sm:py-20">
       <Container>
         <SectionHeading
           title="Klien Kami"
-          description="Koperasi, toko, dan lembaga yang sudah pernah bekerja sama dengan kami."
+          description={`${clients.length}+ koperasi, toko, dan perusahaan dari berbagai daerah yang sudah pernah bekerja sama dengan kami.`}
         />
-        <div className="mt-12 grid gap-5 sm:grid-cols-3 lg:grid-cols-5">
+        <div className="mt-8 grid grid-cols-2 gap-4 sm:mt-12 sm:grid-cols-3 sm:gap-5 lg:grid-cols-5">
           {clients.map((c) => (
             <ClientCard key={c.id} client={c} />
           ))}
