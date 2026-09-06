@@ -10,7 +10,7 @@ export const companyProfileData: CompanyProfile = {
     address: 'Graha Raya Bintaro, Ayna Residence Blok F-06 Tangerang Selatan ',
     city: 'Jakarta Selatan',
     postalCode: '15324',
-    email: 'hello@mystarsit.example.com',
+    email: 'mystarsitsolution@gmail.com',
     whatsapp: '+62 0878-5047-8027',
     about: 'My Stars IT Solution adalah software house yang membantu koperasi, UMKM, dan perusahaan menengah membangun sistem digital yang benar-benar dipakai sehari-hari — bukan sekadar proyek yang selesai lalu terlupakan. Kami mengerjakan setiap proyek dari perencanaan hingga pemeliharaan jangka panjang.',
     vision: 'Menjadi mitra teknologi tepercaya yang membantu setiap bisnis, besar maupun kecil, punya sistem digital yang layak dimiliki.',
