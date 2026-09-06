@@ -11,7 +11,7 @@ const nextConfig = {
     // Placeholder assets di /public/images dibuat sebagai SVG.
     // Aman diaktifkan karena file berasal dari proyek sendiri (bukan upload pengguna).
     dangerouslyAllowSVG: true,
-    contentDispositionType: "attachment",
+    contentDispositionType: "inline",
   },
 };
 

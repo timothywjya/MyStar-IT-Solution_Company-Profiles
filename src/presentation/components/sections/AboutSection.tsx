@@ -15,34 +15,34 @@ export function AboutSection({ profile }: { profile: CompanyProfile }) {
             value: `${profile.address}, ${profile.city} ${profile.postalCode}`
         },
         { label: 'Email', value: profile.email },
-        { label: 'WhatsApp', value: ` ${profile.whatsapp}` }
+        { label: 'Telepon / WhatsApp', value: ` ${profile.whatsapp}` }
     ];
 
     return (
-        <section className="py-24">
-            <Container className="grid gap-14 lg:grid-cols-[220px_1fr]">
-                <div className="flex justify-start lg:justify-center">
-                    <div className="flex h-28 w-28 items-center justify-center rounded-2xl bg-navy-950/[0.04]">
+        <section className="py-16 sm:py-20 lg:py-24">
+            <Container className="grid gap-8 lg:grid-cols-[220px_1fr] lg:gap-14">
+                <div className="flex justify-center lg:justify-center">
+                    <div className="flex h-24 w-24 items-center justify-center rounded-2xl bg-navy-950/[0.04] p-3 sm:h-28 sm:w-28 sm:p-4">
                         <Image
-                            src={profile.logoUrl}
+                            src={profile.logoIconUrl}
                             alt={`Logo ${profile.name}`}
-                            width={72}
-                            height={72}
-                            className="opacity-80"
+                            width={844}
+                            height={844}
+                            className="h-full w-full object-contain"
                         />
                     </div>
                 </div>
 
-                <div>
+                <div className="text-center lg:text-left">
                     <p className="text-sm text-teal">Tentang Kami</p>
-                    <h2 className="mt-3 font-display text-3xl font-medium text-ink sm:text-4xl">
+                    <h2 className="mt-3 font-display text-2xl font-medium text-ink sm:text-3xl lg:text-4xl">
                         {profile.name}
                     </h2>
-                    <p className="mt-5 max-w-2xl leading-relaxed text-slate">
+                    <p className="mx-auto mt-5 max-w-2xl leading-relaxed text-slate lg:mx-0">
                         {profile.about}
                     </p>
 
-                    <dl className="mt-10 grid gap-6 sm:grid-cols-2">
+                    <dl className="mt-10 grid gap-6 text-left sm:grid-cols-2">
                         {details.map((d) => (
                             <div
                                 key={d.label}

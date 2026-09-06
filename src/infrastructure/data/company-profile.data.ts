@@ -3,7 +3,9 @@ import { CompanyProfile } from '@domain/entities/CompanyProfile';
 export const companyProfileData: CompanyProfile = {
     name: 'My Stars IT Solution',
     tagline: 'Menerangi jalan digital bisnis Anda',
-    logoUrl: '/images/logo-placeholder.svg',
+    logoUrl: '/images/brand/logo-full.png',
+    logoIconUrl: '/images/brand/logo-icon.png',
+    logoHorizontalUrl: '/images/brand/logo-horizontal.png',
     foundedYear: 2005,
     address: 'Graha Raya Bintaro, Ayna Residence Blok F-06 Tangerang Selatan ',
     city: 'Jakarta Selatan',

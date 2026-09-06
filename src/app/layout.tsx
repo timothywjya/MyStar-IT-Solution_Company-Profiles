@@ -21,6 +21,15 @@ export const metadata: Metadata = {
   title: "My Stars IT Solution — Software House",
   description:
     "My Stars IT Solution adalah software house yang membangun sistem digital untuk koperasi, UMKM, dan perusahaan menengah.",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
@@ -29,7 +38,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html lang="id">
       <body className={`${spaceGrotesk.variable} ${inter.variable} bg-paper font-body text-ink antialiased`}>
-        <Navbar />
+        <Navbar profile={profile} />
         <main>{children}</main>
         <Footer profile={profile} />
       </body>
