@@ -34,4 +34,10 @@ export const galleryData: GalleryItem[] = [
     caption: "Pelatihan penggunaan sistem kasir untuk staf toko",
     category: "Kegiatan",
   },
+  {
+    id: "gallery-6",
+    imageUrl: "/images/gallery/gallery-6.jpg",
+    caption: "Koperasi Serba Usaha Seroja, Pakujaya — Tangerang Selatan",
+    category: "Klien",
+  },
 ];

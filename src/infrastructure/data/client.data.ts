@@ -27,4 +27,6 @@ export const clientData: Client[] = [
   { id: "client-19", name: "KSU Agung Mandiri", type: "Koperasi Serba Usaha", logoUrl: "/images/clients/client-19.png" },
   { id: "client-20", name: "Koperasi Cipta Sejahtera", type: "Koperasi Simpan Pinjam", logoUrl: "/images/clients/client-20.png" },
   { id: "client-21", name: "Dewa Travelindo", type: "Perusahaan Travel", logoUrl: "/images/clients/client-21.png" },
+  { id: "client-22", name: "KSP Mitra Dana Persada", type: "Koperasi Simpan Pinjam", logoUrl: "/images/clients/client-22.png" },
+  { id: "client-23", name: "Koperasi Serba Usaha Seroja", type: "Koperasi Serba Usaha", logoUrl: "/images/clients/client-23.jpg" },
 ];

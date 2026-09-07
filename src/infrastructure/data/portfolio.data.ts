@@ -57,7 +57,7 @@ export const portfolioData: Portfolio[] = [
     client: "Koperasi Tri Matra Sejahtera & 10+ koperasi lainnya",
     year: 2025,
     description:
-      "Satu sistem inti yang dapat diberi identitas (nama, logo) sesuai masing-masing koperasi, sudah diimplementasikan di lebih dari 10 koperasi berbeda — termasuk BP2T Mandiri Sejahtera, Bina Mandiri, Primer Koperasi Kartika Cobra, dan Koperasi Promoter Jaya Tangsel — masing-masing dengan modul Akuntansi, Keuangan, hingga Personalia.",
+      "Satu sistem inti yang dapat diberi identitas (nama, logo) sesuai masing-masing koperasi, sudah diimplementasikan di lebih dari 10 koperasi berbeda — termasuk BP2T Mandiri Sejahtera, Bina Mandiri, Primer Koperasi Kartika Cobra, Koperasi Promoter Jaya Tangsel, dan Koperasi Serba Usaha Seroja — masing-masing dengan modul Akuntansi, Keuangan, hingga Personalia.",
     techStack: ["Visual Basic .NET", "MySQL", "Multi-Tenant Branding"],
     imageUrl: "/images/portfolio/portfolio-5.jpg",
   },
