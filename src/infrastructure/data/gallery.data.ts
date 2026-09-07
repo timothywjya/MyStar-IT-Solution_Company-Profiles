@@ -40,4 +40,10 @@ export const galleryData: GalleryItem[] = [
     caption: "Koperasi Serba Usaha Seroja, Pakujaya — Tangerang Selatan",
     category: "Klien",
   },
+  {
+    id: "gallery-7",
+    imageUrl: "/images/gallery/gallery-7.jpg",
+    caption: "KSP Mitra Dana Persada, Pontianak — Kalimantan Barat",
+    category: "Klien",
+  },
 ];
