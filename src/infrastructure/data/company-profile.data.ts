@@ -8,7 +8,7 @@ export const companyProfileData: CompanyProfile = {
     logoHorizontalUrl: '/images/brand/logo-horizontal.png',
     foundedYear: 2005,
     address: 'Graha Raya Bintaro, Ayna Residence Blok F-06  ',
-    city: 'Tangerang SelatanUpda',
+    city: 'Tangerang Selatan',
     postalCode: '15324',
     email: 'hello@mystarsit.example.com',
     whatsapp: '+62 0878-5047-8027',
